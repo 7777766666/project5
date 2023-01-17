@@ -1,0 +1,12 @@
+#Tue Jan 17 06:40:57 MSK 2023
+E\:\\Idea\\project5\\history\\src\\main\\java\\com\\bank\\history\\HistoryApplication.java=1673924943509
+E\:\\Idea\\project5\\history\\src\\main\\java\\com\\bank\\history\\controllers\\HistoryController.java=1673926829679
+E\:\\Idea\\project5\\history\\src\\main\\java\\com\\bank\\history\\exception\\AppError.java=1673913301992
+E\:\\Idea\\project5\\history\\src\\main\\java\\com\\bank\\history\\exception\\GlobalExceptionHandler.java=1673907183961
+E\:\\Idea\\project5\\history\\src\\main\\java\\com\\bank\\history\\exception\\ResourceNotFoundException.java=1673907183961
+E\:\\Idea\\project5\\history\\src\\main\\java\\com\\bank\\history\\models\\History.java=1673921505210
+E\:\\Idea\\project5\\history\\src\\main\\java\\com\\bank\\history\\models\\dto\\HistoryDto.java=1673921111897
+E\:\\Idea\\project5\\history\\src\\main\\java\\com\\bank\\history\\models\\dto\\HistoryMapper.java=1673922770131
+E\:\\Idea\\project5\\history\\src\\main\\java\\com\\bank\\history\\repositories\\HistoryRepository.java=1673922770109
+E\:\\Idea\\project5\\history\\src\\main\\java\\com\\bank\\history\\services\\abstracts\\HistoryService.java=1673923529611
+configuration*?=27557F7C35A388F81F3E6E8E4DCA9769DC00CB60

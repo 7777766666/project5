@@ -1,0 +1,12 @@
+com\bank\history\models\dto\HistoryMapper.class
+com\bank\history\controllers\HistoryController.class
+com\bank\history\exception\ResourceNotFoundException.class
+com\bank\history\exception\AppError.class
+com\bank\history\services\model\HistoryServiceImpl.class
+com\bank\history\repositories\HistoryRepository.class
+com\bank\history\HistoryApplication.class
+com\bank\history\models\dto\HistoryDto.class
+com\bank\history\exception\GlobalExceptionHandler.class
+com\bank\history\services\abstracts\HistoryService.class
+com\bank\history\models\dto\HistoryMapperImpl.class
+com\bank\history\models\History.class

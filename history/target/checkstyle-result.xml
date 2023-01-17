@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="9.3">
+<file name="E:\Idea\project5\history\src\main\java\com\bank\history\controllers\HistoryController.java">
+</file>
+<file name="E:\Idea\project5\history\src\main\java\com\bank\history\exception\AppError.java">
+</file>
+<file name="E:\Idea\project5\history\src\main\java\com\bank\history\exception\GlobalExceptionHandler.java">
+</file>
+<file name="E:\Idea\project5\history\src\main\java\com\bank\history\exception\ResourceNotFoundException.java">
+</file>
+<file name="E:\Idea\project5\history\src\main\java\com\bank\history\HistoryApplication.java">
+</file>
+<file name="E:\Idea\project5\history\src\main\java\com\bank\history\models\dto\HistoryDto.java">
+</file>
+<file name="E:\Idea\project5\history\src\main\java\com\bank\history\models\dto\HistoryMapper.java">
+</file>
+<file name="E:\Idea\project5\history\src\main\java\com\bank\history\models\History.java">
+</file>
+<file name="E:\Idea\project5\history\src\main\java\com\bank\history\repositories\HistoryRepository.java">
+</file>
+<file name="E:\Idea\project5\history\src\main\java\com\bank\history\services\abstracts\HistoryService.java">
+</file>
+<file name="E:\Idea\project5\history\src\main\java\com\bank\history\services\model\HistoryServiceImpl.java">
+<error line="31" column="17" severity="error" message="Variable &apos;history&apos; should be declared final." source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
+<error line="46" column="17" severity="error" message="Variable &apos;historyFromController&apos; should be declared final." source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
+<error line="48" column="17" severity="error" message="Variable &apos;historyUpdate&apos; should be declared final." source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
+</file>
+<file name="E:\Idea\project5\history\target\generated-sources\annotations\com\bank\history\models\dto\HistoryMapperImpl.java">
+<error line="8" column="5" severity="error" message="&apos;value&apos; has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="9" column="5" severity="error" message="&apos;date&apos; has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="10" column="5" severity="error" message="&apos;comments&apos; has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="21" column="17" severity="error" message="Variable &apos;history&apos; should be declared final." source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
+<error line="40" column="20" severity="error" message="Variable &apos;historyDto&apos; should be declared final." source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
+</file>
+</checkstyle>
