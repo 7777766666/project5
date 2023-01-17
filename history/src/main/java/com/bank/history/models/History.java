@@ -1,31 +1,21 @@
 package com.bank.history.models;
 
-import lombok.AllArgsConstructor;
-import lombok.EqualsAndHashCode;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.NonNull;
-import lombok.Setter;
-import lombok.ToString;
-
+import lombok.Data;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
-import javax.validation.constraints.Size;
 import java.io.Serializable;
-
-@Setter
-@Getter
-@NoArgsConstructor
-@AllArgsConstructor
+/**
+ * @author Pavel Krestovnikov
+ * entity history, таблица postgres
+ * 7 столбцов: 1 столбец - id=primary key
+ * Остальные 6 столбцов Long, Nullable
+ */
+@Data
 @Entity
-@NonNull
-@Size(max = 8)
-@EqualsAndHashCode
-@ToString(exclude = "id")
 @Table(name = "history")
 public class History implements Serializable {
     @Id
@@ -43,5 +33,4 @@ public class History implements Serializable {
     Long publicBankInfoAuditId;
     @Column(name = "authorization_audit_id")
     Long authorizationAuditId;
-
 }
